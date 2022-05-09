@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+  }
+  body {
+    background-color: rgba(250, 250, 250, 0.872);
+  }
+  /*seccion navegacion*/
+  nav div a img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+  }
+  .nav-ul {
+    margin-right: 10%;
+  }
+  .nav-li {
+    font-size: 1.2rem;
+    margin-right: 1%;
+    font-weight: bold;
+  }
+  .ul-desplegable {
+    /* background-color: #91abb7; */
+    border: none;
+  }
+  
+  /*carrusel principal*/
+  .carruselTamaño {
+    height: 80vh;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .imgCarru {
+    object-fit: contain;
+    height: 30rem;
+    width: 100%;
+  }
+  .tituloCarrusel {
+    color: #000;
+    font-size: 1.5rem;
+  }
+  .parrafoCarrusel {
+    color: #000;
+  }
+  /*Seccion body*/
+  
+  .zindex {
+    z-index: 99;
+  }
+  
+  .bg-blue{
+    background-color: #3bb6f2;
+  }
+  
+  .title{
+    font-family: 'Caveat', cursive;
+  }
+  
+  .transfor__skew__cardW26__uno {
+    transform: skew(-15deg) translate(-10px);
+  }
+  
+  .img-W26:hover {
+    transform: scale(1.08);
+    transition: transform 500ms;
+  }
+  
+  /*seccion footer*/
+  footer {
+    margin-top: 5%;
+    padding: 3% 0 3% 0;
+    background-color: #91abb7;
+  }
+  .divFooterContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexElementFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .titFooter {
+    font-size: 1.4rem;
+  }
+  .icono {
+    height: 25px;
+    width: 25px;
+  }
+  .pFooter{
+    font-size: 1.2rem;
+  }
+  
+  .logoCorreo{
+    height: 35px;
+    width: 120px;
+  }
